@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research — Sasha Malysheva</title>
+<meta name="description" content="Quantum optimal control and quantum algorithms research by Sasha Malysheva.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+<header class="site-header">
+  <a class="wordmark" href="index.html">Sasha Malysheva</a>
+  <nav class="site-nav" aria-label="Main">
+    <ul>
+      <li><a href="research.html" aria-current="page">Research</a></li>
+      <li><a href="literary.html">Literary research</a></li>
+      <li><a href="activities.html">Activities</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+
+<section class="page-head">
+  <h1>Research</h1>
+  <p class="lede">I work on quantum computing in Fred Chong&rsquo;s EPiQC lab at UChicago. In quantum optimal control, I think about which initializations get you better solutions for control pulses. I also work on quantum algorithms, from a theory project on Decoded Quantum Interferometry to running optimization experiments on IBM hardware.</p>
+</section>
+
+<section class="section">
+  <h2>Projects</h2>
+  <article class="entry">
+    <div class="label">EPiQC &middot; 2024&ndash;present<br>Paper being finalized</div>
+    <div>
+      <h3>Initialization in quantum optimal control</h3>
+      <p>Gate-synthesis optimizers have to start from some initial guess, and the usual choice is random. We study initializations built from the geometry of the problem itself, using Euler&ndash;Arnold homotopy warm starts. On problems where every scheme converges, these starts reach fundamentally better solutions, so the starting point decides which solution you get.</p>
+      <p>My favorite part has been designing the experiments and watching the results change what we thought the paper was about.</p>
+    </div>
+  </article>
+  <article class="entry">
+    <div class="label">EPiQC &middot; ongoing<br>Working toward a paper</div>
+    <div>
+      <h3>Connecting Decoded Quantum Interferometry and the quantum harmonic oscillator</h3>
+      <p>With two PhD collaborators, generalizing the Decoded Quantum Interferometry (DQI) algorithm to higher dimensions through an analogy with the quantum harmonic oscillator, to learn which problems higher-dimensional DQI can reach.</p>
+    </div>
+  </article>
+  <article class="entry">
+    <div class="label">Q4bio<br>Paper in review</div>
+    <div>
+      <h3>Quantum algorithms for dense biological data</h3>
+      <p>A collaboration between our group, a UChicago cancer biology lab, and IBM, using QAOA to select features in biological data. I reworked our pipeline to sample from QAOA and RQAOA runs on IBM hardware, with low-energy post-selection.</p>
+    </div>
+  </article>
+  <article class="entry">
+    <div class="label">MidIR Photonics Lab, UT Austin<br>Research assistant &middot; summer 2024</div>
+    <div>
+      <h3>Fabrication and laser experiments in mid-infrared photonics</h3>
+      <p>In Dan Wasserman&rsquo;s lab, I revived an abandoned vacuum system and developed and documented a metal-deposition protocol that opened a new fabrication setup for the group. I also automated ultrafast laser experiments to improve data quality and throughput.</p>
+    </div>
+  </article>
+</section>
+
+<section class="section">
+  <h2>Additional work</h2>
+  <article class="entry">
+    <div class="label">Piccolo.jl</div>
+    <div>
+      <h3>Bloch sphere visualization</h3>
+      <p>I contributed 3D Bloch sphere visualization and animation code to PiccoloPlots, part of the Harmoniqs Piccolo quantum optimal control stack I use every day.</p>
+    </div>
+  </article>
+  <article class="entry">
+    <div class="label">PULSE-A CubeSat<br>Small Satellite Conference 2025</div>
+    <div>
+      <h3>A polarization-based optical communications ground station</h3>
+      <p>PULSE-A is UChicago&rsquo;s student-led CubeSat mission to demonstrate a laser downlink from orbit using circular polarization. On the ground station team, I worked on the optical modeling in Zemax and designed the Reed&ndash;Solomon error-correction pipeline for encoding and decoding data.</p>
+      <p><a href="papers/pulse-a-ground-station-smallsat-2025.pdf">Paper (PDF)</a> &nbsp; <a href="https://digitalcommons.usu.edu/smallsat/2025/all2025/57/">Poster</a></p>
+    </div>
+  </article>
+</section>
+
+<section class="section">
+  <h2>Papers and drafts</h2>
+  <ul class="list">
+    <li>J. I. Prieto Asbun, &hellip;, <strong>S. Malysheva</strong>, &hellip;, T. Zhong. &ldquo;Development of a Polarization-Based Optical Communications Ground Station for the PULSE-A CubeSat.&rdquo; <i>39th Annual Small Satellite Conference</i>, 2025. <a href="papers/pulse-a-ground-station-smallsat-2025.pdf">PDF</a> &nbsp; <a href="https://digitalcommons.usu.edu/smallsat/2025/all2025/57/">Poster</a></li>
+    <li>Initialization in quantum optimal control <span class="meta" style="display:inline">&nbsp; Being finalized</span></li>
+    <li>Q4bio <span class="meta" style="display:inline">&nbsp; In review</span></li>
+    <li>DQI and the quantum harmonic oscillator <span class="meta" style="display:inline">&nbsp; Work in progress</span></li>
+  </ul>
+</section>
+</main>
+<footer class="site-footer">
+  <a href="mailto:sashamalysheva@uchicago.edu">sashamalysheva@uchicago.edu</a>
+  <a href="https://github.com/s-a-s-h">GitHub</a>
+  <a href="https://www.linkedin.com/in/sasha-malysheva-16aa75272/">LinkedIn</a>
+</footer>
+</div>
+</body>
+</html>
